@@ -11,10 +11,10 @@ export const routes: Routes = [
         pathMatch: 'full',
         component: HomeComponent
     },
-    // {
-    //     path: 'upcoming',
-    //     component: UpcomingComponent
-    // },
+    {
+        path: 'upcoming',
+        component: UpcomingComponent
+    },
     {
         path: 'previous',
         component: PreviousComponent
